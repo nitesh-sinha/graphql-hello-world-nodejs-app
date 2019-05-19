@@ -1,0 +1,20 @@
+[
+    {
+        "id": "S001",
+        "name": "Rahul",
+        "email": "rahul@abc.com",
+        "collegeId": "COL-002" 
+    },
+    {
+        "id": "S002",
+        "name": "Simran",
+        "email": "simran@xyz.com",
+        "collegeId": "COL-001" 
+    },
+    {
+        "id": "S003",
+        "name": "Adi",
+        "email": "adi@abc.com",
+        "collegeId": "COL-002" 
+    }
+]

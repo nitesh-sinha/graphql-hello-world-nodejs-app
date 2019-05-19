@@ -1,0 +1,14 @@
+[
+    {
+        "id": "COL-001",
+        "name": "Stanford",
+        "location": "Palo-Alto",
+        "rating": 5.0
+    },  
+    {
+        "id": "COL-002",
+        "name": "Georgia Tech",
+        "location": "Atlanta",
+        "rating": 4.6
+    }
+]

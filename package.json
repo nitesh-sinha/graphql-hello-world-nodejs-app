@@ -1,0 +1,19 @@
+{
+    "name": "graphql-hello-world-server",
+    "private": true,
+    "scripts": {
+        "start": "nodemon --ignore data/ server.js"
+    },
+    "dependencies": {
+        "express": "^4.16.4",
+        "body-parser": "^1.18.3",
+        "cors": "^2.8.5",
+        "graphql": "0.13.2",
+        "graphql-tools": "^4.0.4",
+        "apollo-server-express": "^1.4.0",
+        "notarealdb": "^0.2.2"
+    },
+    "devDependencies": {
+        "nodemon": "1.17.1"
+    }
+}
