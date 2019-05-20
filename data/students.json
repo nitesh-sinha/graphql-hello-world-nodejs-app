@@ -1,20 +1,41 @@
 [
-    {
-        "id": "S001",
-        "name": "Rahul",
-        "email": "rahul@abc.com",
-        "collegeId": "COL-002" 
-    },
-    {
-        "id": "S002",
-        "name": "Simran",
-        "email": "simran@xyz.com",
-        "collegeId": "COL-001" 
-    },
-    {
-        "id": "S003",
-        "name": "Adi",
-        "email": "adi@abc.com",
-        "collegeId": "COL-002" 
-    }
+  {
+    "id": "S001",
+    "firstName": "Rahul",
+    "lastName": "DN",
+    "email": "rahul@abc.com",
+    "collegeId": "COL-002"
+  },
+  {
+    "id": "S002",
+    "firstName": "Simran",
+    "lastName": "BN",
+    "email": "simran@xyz.com",
+    "collegeId": "COL-001"
+  },
+  {
+    "id": "S003",
+    "firstName": "Adi",
+    "lastName": "SN",
+    "email": "adi@abc.com",
+    "collegeId": "COL-002"
+  },
+  {
+    "id": "S004",
+    "firstName": "Tina",
+    "lastName": "Fey",
+    "collegeId": "COL-001"
+  },
+  {
+    "id": "SJodm0Jp4",
+    "firstName": "Jay",
+    "lastName": "D",
+    "collegeId": "COL-002"
+  },
+  {
+    "id": "rJo1BR1pE",
+    "firstName": "Henry",
+    "lastName": "J",
+    "collegeId": "COL-002"
+  }
 ]
