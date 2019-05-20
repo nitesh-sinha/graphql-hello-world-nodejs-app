@@ -160,9 +160,8 @@ __Output(Returns the id of the student that was added)__
 
 **Case 5: Create an object via Mutation(add a student to the database) and return that object**
 
-Input
------
------
+__Input__
+
 `mutation {
   create_and_return_student(firstName: "Henry", lastName: "J", collegeId:"COL-002") {
     fullName
@@ -175,9 +174,7 @@ Input
 }`
 
 
-Output
------
------
+__Output__
 
 `{
   "data": {
