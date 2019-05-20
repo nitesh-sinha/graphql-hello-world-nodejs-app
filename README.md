@@ -5,7 +5,8 @@ This app uses a simple flat file as its database; however it can be swapped with
 
 ## Sample input queries and corresponding outputs:
 -----------------------------------------------
-**Case 1**: Querying a Student object based on input attribute("id")
+
+**Case 1: Querying a Student object based on input attribute("id")**
 
 __Input__
 
@@ -48,8 +49,7 @@ __Output__
 
 
 
-**Case 2**: Querying for an attribute(fullName) in Student object which is not defined in the database.
----------------------------------------------------
+**Case 2: Querying for an attribute(fullName) in Student object which is not defined in the database.**
 
 __Input__
 
@@ -93,7 +93,7 @@ __Output__
 
 
 
-**Case 3**: Nested query where one object refers to another object within it.
+**Case 3: Nested query where one object refers to another object within it.**
 
 __Input__
 
@@ -139,7 +139,7 @@ __Output__
 }`
 
 
-**Case 4**: Mutation(add a student to the database)
+**Case 4: Mutation(add a student to the database)**
 
 __Input__
 
@@ -158,7 +158,7 @@ __Output(Returns the id of the student that was added)__
 }`
 
 
-**Case 5**: Create an object via Mutation(add a student to the database) and return that object
+**Case 5: Create an object via Mutation(add a student to the database) and return that object**
 
 __Input__
 
