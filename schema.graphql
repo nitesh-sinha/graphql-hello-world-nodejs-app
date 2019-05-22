@@ -24,4 +24,6 @@ type Mutation {
     createStudent(firstName:String, lastName:String, collegeId:String):String
 
     create_and_return_student(firstName:String, lastName:String, collegeId:String):Student
+
+    deleteStudent(id:ID):String
 }

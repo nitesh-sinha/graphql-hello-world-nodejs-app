@@ -6,7 +6,7 @@ const Query = {
     },
     // resolver function for "students" Query
     students: () => db.students.list(),
-    // resolver function fot "studentById" Query
+    // resolver function for "studentById" Query
     studentById: (root, args, context, info) => {
         // root will contain the Query object itself
         // args will contain the parameter "id" passed in input user query
@@ -50,6 +50,13 @@ const Mutation = {
         })
         
         return db.students.get(student_id)
+    },
+
+    // deleteStudent: (root, args, context, info) => db.students.delete(args.id)
+
+    deleteStudent: (root, args, context, info) => {
+        db.students.delete(args.id);
+        return "Successfully deleted student";
     }
 }
 

@@ -23,7 +23,7 @@ app.use(cors(), bodyparser.json());
 const {graphiqlExpress, graphqlExpress} = require('apollo-server-express')
 // ReactJS clients can use this endpoint to query GraphQL server
 app.use('/graphql', graphqlExpress({schema}))
-// GraphiQL client can use this endpoint to query GRaphQL server
+// GraphiQL client can use this endpoint to query GraphQL server
 app.use('/graphiql', graphiqlExpress({endpointURL: "/graphql"}))
 
 // Start the Express server
