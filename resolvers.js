@@ -31,6 +31,8 @@ const Student = {
 
 }
 
+// Mutation object will be used for modification(create, update and delete)
+// to the data
 const Mutation = {
     createStudent: (root, args, context, info) => {
         return db.students.create({
