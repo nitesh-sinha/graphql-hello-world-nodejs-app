@@ -4,14 +4,17 @@
     "scripts": {
         "start": "nodemon --ignore data/ server.js"
     },
+    "//": "apollo-server-express version below was ^1.4.0. Updated to >=2.14.2 since prev version has security vulnerability", 
     "dependencies": {
         "express": "^4.16.4",
         "body-parser": "^1.18.3",
         "cors": "^2.8.5",
         "graphql": "0.13.2",
         "graphql-tools": "^4.0.4",
-        "apollo-server-express": "^1.4.0",
-        "notarealdb": "^0.2.2"
+        "apollo-server-express": ">=2.14.2",
+        "notarealdb": "^0.2.2",
+        "graphql-subscriptions": "^1.1.0",
+        "subscriptions-transport-ws": "0.8.3"
     },
     "devDependencies": {
         "nodemon": "1.17.1"
